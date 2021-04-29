@@ -1,0 +1,14 @@
+{
+  "globalComponents": [
+    //   "vuetify"
+    // https://github.com/znck/vue-developer-experience/issues/123
+    // {
+    //   "Nuxt": {
+    //     "moduleName": "nuxt",
+    //     "exportName": "Nuxt"
+    //   }
+    // },
+    // "components/HelloWorld.vue"
+    "**/components/*.{tsx,vue}"
+  ]
+}

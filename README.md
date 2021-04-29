@@ -35,6 +35,7 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 ## Roadmap
 
 [-] Add test (jest+cypress)
+
 [-] Add docker support
 
 ## Acknowledgements

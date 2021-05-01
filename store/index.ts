@@ -5,12 +5,6 @@ import { Getters } from './getters'
 import { Mutations } from './mutations'
 import { Actions } from './actions'
 
-// https://github.com/olajohn-ajiboye/vuex4
-// https://dev.to/3vilarthas/vuex-typescript-m4j
-// https://dev.to/3vilarthas/comment/175fn
-// https://gist.github.com/javisperez/b13d02042620ae663f0a1f81b050ca69
-// https://github.com/nuxt/nuxt.js/issues/4912
-
 export const key: InjectionKey<State> = Symbol('vuex injection key')
 
 export type Store = Omit<

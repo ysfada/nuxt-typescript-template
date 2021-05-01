@@ -42,6 +42,7 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 
 - [Create Nuxt App](https://github.com/nuxt/create-nuxt-app)
 - [Nuxt Typescript Templates](https://github.com/nuxt-community/typescript-template)
+- [Vuex + TypeScript](https://dev.to/3vilarthas/vuex-typescript-m4j)
 - [The easiest way to create a README](https://readme.so/editor)
 
 ## License

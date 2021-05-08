@@ -4,6 +4,15 @@
 
 A [Nuxt.js](https://github.com/nuxt/nuxt.js) + [@nuxt/typescript](https://github.com/nuxt/typescript) + [@nuxt/composition-api](https://github.com/nuxt-community/composition-api) starter project template.
 
+## Features
+
+- Typescript
+- Composition API
+- Vuex
+- PWA
+- SCSS
+- Docker
+
 ## Deployment
 
 ```bash
@@ -23,21 +32,25 @@ $ npm run generate
 
 Go to [http://localhost:3000](http://localhost:3000)
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+## Docker Deployment
 
-## Features
+```bash
+# build containers
+$ docker-compose build
 
-- Typescript
-- Composition API
-- Vuex
-- PWA
-- SCSS
+# run containers
+$ docker-compose up -d
+```
+
+Go to [http://localhost](http://localhost)
+
+For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org), [Nginx image](https://hub.docker.com/_/nginx) and [Node image](https://hub.docker.com/_/node).
 
 ## Roadmap
 
 [-] Add test (jest+cypress)
 
-[-] Add docker support
+[+] Add docker support
 
 ## Acknowledgements
 

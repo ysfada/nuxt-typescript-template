@@ -9,6 +9,9 @@
     "esbenp.prettier-vscode",
     "humao.rest-client",
     "octref.vetur",
-    "znck.vue-language-features"
+    "znck.vue-language-features",
+    "ms-azuretools.vscode-docker",
+    "mikestead.dotenv",
+    "johnsoncodehk.volar"
   ]
 }

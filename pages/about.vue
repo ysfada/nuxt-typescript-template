@@ -10,6 +10,10 @@ export default defineComponent({
       h('div', { class: 'about' }, [
         h('h1', 'About page'),
         h('p', 'Resize page to see color changing (scss mixins)'),
+        h('nuxt-link', { props: { to: { name: 'index' } } }, 'Index Page'),
+        h('nuxt-link', { props: { to: { name: 'chat' } } }, 'Chat Page'),
+        h('a', { attrs: { href: '/express' } }, 'Express API'),
+        h('a', { attrs: { href: '/nest' } }, 'NestJS API'),
       ])
   },
 })
@@ -23,6 +27,10 @@ export default defineComponent({
   }
   @include gt-sm {
     color: $colorSecondary;
+  }
+
+  a {
+    display: block;
   }
 }
 </style>

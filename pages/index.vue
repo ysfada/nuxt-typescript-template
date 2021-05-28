@@ -3,6 +3,9 @@
     <Logo />
     <h1>With Composition API <small>*Experimental</small></h1>
     <nuxt-link :to="{ name: 'about' }">About Page</nuxt-link>
+    <nuxt-link :to="{ name: 'chat' }">Chat Page</nuxt-link>
+    <a href="/express">Express API</a>
+    <a href="/nest">NestJS API</a>
     <h2>count: {{ count }}</h2>
     <h3>loading: {{ isLoading }}</h3>
     <button @click="increment(2)">increment by 2</button>

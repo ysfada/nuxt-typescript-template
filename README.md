@@ -12,7 +12,7 @@ A [Nuxt.js](https://github.com/nuxt/nuxt.js) + [@nuxt/typescript](https://github
 - PWA
 - SCSS
 - Docker
-- Socket`.`io
+- Socket.io
 - Express API
 - NestJS API
 
@@ -39,7 +39,7 @@ $ npm run start
 
 Go to [http://localhost:3000](http://localhost:3000)
 
-For Socket`.`io example go to [http://localhost:3000/chat](http://localhost:3000/chat)
+For Socket.io example go to [http://localhost:3000/chat](http://localhost:3000/chat)
 
 ## Docker Deployment
 
@@ -53,7 +53,7 @@ $ docker-compose up -d
 
 Go to [http://localhost](http://localhost)
 
-Socket`.`io example at [http://localhost:3000/chat](http://localhost:3000/chat)
+Socket.io example at [http://localhost:3000/chat](http://localhost:3000/chat)
 
 Express example at [http://localhost:3000/express](http://localhost:3000/express)
 
@@ -71,7 +71,7 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 
 [+] NestJS API example
 
-[+] Socket`.`io example
+[+] Socket.io example
 
 ## Acknowledgements
 
